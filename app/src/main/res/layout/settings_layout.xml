@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/material_blue_grey_900"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jimmyle.pacmanandroid.SettingsActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:text="@string/settingsTitle"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/musicToggle"
+        android:textSize="20dp"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_weight="0.09"
+        android:onClick="playMusic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/difficulty"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/easyDifficulty"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09"
+        android:onClick="changeToEasyDifficulty"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mediumDifficulty"
+        android:textSize="20dp"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_weight="0.09"
+        android:onClick="changeToMediumDifficulty"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hardDifficulty"
+        android:textSize="20dp"
+        android:id="@+id/button4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_weight="0.09"
+        android:onClick="changeToHardDifficulty"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/expertDifficulty"
+        android:textSize="20dp"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:layout_weight="0.09"
+        android:onClick="changeToExpertDifficulty"/>
+
+
+
+
+
+</LinearLayout>

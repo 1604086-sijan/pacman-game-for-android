@@ -1,0 +1,15 @@
+{
+  "quarters" : {
+  
+    "M16" : {
+      "ready" : false
+    },
+  
+    "W16" : {
+      "students" : [
+        { "name" : "Kevin Lee"} , 
+        { "name" : "Jimmy Le" } 
+      ]
+    }
+  }
+}
